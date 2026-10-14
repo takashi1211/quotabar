@@ -47,7 +47,7 @@ commands. React 19 and TypeScript build the interface with Vite. The frontend
 uses Tauri IPC to invoke Rust commands. On Linux, Tauri's Wry webview uses
 WebKitGTK; the lockfile includes `webkit2gtk` through `tauri-runtime-wry`.
 Useful entry points are [`src-tauri/src/lib.rs`](../src-tauri/src/lib.rs#L33),
-[`src-tauri/src/commands`](../src-tauri/src/commands),
+[`src-tauri/src/commands.rs`](../src-tauri/src/commands.rs),
 [`src-tauri/src/services`](../src-tauri/src/services),
 [`src/main.tsx`](../src/main.tsx#L1), and [`src/App.tsx`](../src/App.tsx#L379).
 
